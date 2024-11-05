@@ -1,0 +1,21 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Gerät wurde bereits konfiguriert",
+            "already_in_progress": "Konfiguration ist bereits in Arbeit."
+        },
+        "error": {
+            "connection_error": "Konnte nicht Verbinden"
+        },
+        "flow_title": "Pylontech BMS",
+        "step": {
+            "user": {
+                "data": {
+                    "host": "IP Address",
+                    "port": "Port"
+                },
+                "description": "Verbindung zu Pylontech BMS"
+            }
+        }
+    }
+}

@@ -14,12 +14,12 @@ The ESP8266/32 microcontroller should be programmed and connected to Home Assist
 
 ## Installation
 
-Install this component using [HACS](https://hacs.xyz/) by adding custom repository [https://github.com/mletenay/home-assistant-pylontech](https://github.com/mletenay/home-assistant-pylontech) and searching for `Pylontech` in the `Integrations`.
+Install this component using [HACS](https://hacs.xyz/) by adding custom repository [https://github.com/ma-schmitz/home-assistant-pylontech](https://github.com/ma-schmitz/home-assistant-pylontech) and searching for `Pylontech` in the `Integrations`.
 
 ## Configration
 
-The component requires the host/IP and the port where the [Pylontech BMS console server for ESPHome](https://github.com/mletenay/esphome-stream-server) is listening.
+The component requires the host/IP and the port where the [Pylontech BMS console server for ESPHome](https://github.com/ma-schmitz/esphome-stream-server) is listening.
 
 ## Exposed sensors
 
-The integration connects to BMS in regular intrervals (default 30s) and executes `pwr` and `unit` console commands to read and report current state (charge, voltage, current, temperature, state, error code etc.) of BMS itself as well as its individual BMUs.
+The integration connects to BMS in regular intrervals (default 30s) and executes `pwr` and `info` console commands to read and report current state (charge, voltage, current, temperature, state, error code etc.) of BMS itself as well as its individual BMUs.
